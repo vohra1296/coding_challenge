@@ -110,7 +110,7 @@ if (error) {
         <Grid container>
         <Grid item xs={4}>
         {currentPlace != null &&
-        <Image size='small' width ={'50%'} src={currentPlace.logo_url}  />}
+        <Image  width ={'90%'} height={'50%'} src={currentPlace.logo_url}  />}
         </Grid>
         <Grid item xs={8}>
          {currentPlace != null &&
