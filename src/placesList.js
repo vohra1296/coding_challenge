@@ -90,7 +90,7 @@ if (error) {
               <TableCell component="th" scope="row">
                 {row.id}
               </TableCell>
-              <TableCell align="right"> <a href = '#' onClick ={()=>handleDataModal(row)}> {row.name}</a></TableCell>
+              <TableCell align="right"> <a  onClick ={()=>handleDataModal(row)}> {row.name}</a></TableCell>
               <TableCell align="right">{row.website_url}</TableCell>
               <TableCell align="right">{row.address}</TableCell>
             </TableRow>
