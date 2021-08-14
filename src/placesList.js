@@ -120,29 +120,29 @@ if (error) {
           <Divider />
           <br />
             <Grid container>
-            <Grid item xs={4}>
+            <Grid item xs={2}>
             <h4>Address :</h4>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={6}>
             <p>{currentPlace.address}</p>
             </Grid>
             </Grid>
             <Divider />
           <br />
             <Grid container>
-            <Grid item xs={4}>
+            <Grid item xs={2}>
             <h4>Website :</h4>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={6}>
             <p>{currentPlace.website_url}</p>
             </Grid>
             </Grid>
            <Divider/>
             <Grid container>
-            <Grid item xs={4}>
+            <Grid item xs={2}>
             <h4>Hours :</h4>
            </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={6}>
                 <li>Mon : {currentPlace.hours.Monday}</li><br />
                 <li>Tue : {currentPlace.hours.Tuesday}</li><br />
                 <li>Wed : {currentPlace.hours.Wednesday}</li><br />
