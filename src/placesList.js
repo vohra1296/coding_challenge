@@ -78,9 +78,9 @@ if (error) {
           <TableHead>
           <TableRow>
             <TableCell>Business ID</TableCell>
-            <TableCell align="right">Business Name</TableCell>
-            <TableCell align="right">Website</TableCell>
-            <TableCell align="right">Address</TableCell>
+            <TableCell align="left">Business Name</TableCell>
+            <TableCell align="left">Website</TableCell>
+            <TableCell align="left">Address</TableCell>
           </TableRow>
         </TableHead>
 
@@ -90,9 +90,9 @@ if (error) {
               <TableCell component="th" scope="row">
                 {row.id}
               </TableCell>
-              <TableCell align="right"> <Button size={'mini'} onClick ={()=>handleDataModal(row)}> {row.name}</Button></TableCell>
-              <TableCell align="right">{row.website_url}</TableCell>
-              <TableCell align="right">{row.address}</TableCell>
+              <TableCell align="left"> <Button size={'mini'} onClick ={()=>handleDataModal(row)}> {row.name}</Button></TableCell>
+              <TableCell align="left">{row.website_url}</TableCell>
+              <TableCell align="left">{row.address}</TableCell>
             </TableRow>
           ))}
         </TableBody>
